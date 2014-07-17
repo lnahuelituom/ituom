@@ -1,0 +1,234 @@
+body{
+    background: white;
+    font: small-caption;
+    font-size: 15px;
+    margin:0px;
+    padding: 0px;
+}
+
+a{
+    font-weight:bolder;
+    text-decoration: none;
+}
+
+#padre{
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
+#hijo{
+    background: white;
+    border: thin solid black;
+    border-radius:5px;
+    box-shadow: 0px 0px 6px black;
+    float: left;
+    height: auto;
+    padding: 10px;
+    width:100%;
+}
+
+#topcenter {
+    text-align: center;
+    height: 2%;
+    background-color: #ffffff;
+    margin-bottom: .5%;
+
+}
+
+
+form label{
+    float:left;
+    font-size:14px;
+    font-weight:bolder;
+    height:30px;
+    margin:0px 10px 0px 0px;
+    text-align: right;
+    width:100px;
+}
+
+form input{
+    border: thin solid #FF7400;
+    border-radius:5px;
+    height:30px;
+    outline:none;
+    width:200px;
+}
+
+form input:focus{
+    border:thin solid #87CEEB;
+    box-shadow:0px 0px 5px #87CEEB;
+}
+
+form input[type=submit]{
+    background: orange;
+    border:thin solid #FF7400;
+    color: white;
+    float: left;
+    font-size: 20px;
+    font-weight: bolder;
+    margin:10px 0px 10px 50px;
+}
+
+.cabecera{
+    background: #B8C5D6;
+    border-radius: 5px 5px 0px 0px;
+    float: left;
+    height:70px;
+    margin:0px 0px 50px 0px;
+    width:100%;
+}
+
+.cabecera img{
+    float:left;
+   height: 60px;
+    margin:5px 0px 0px 20px;
+    width:50px;
+}
+
+.cabecera h1{
+    color:white;
+    float:left;
+    margin:15px 0px 0px 20px;
+    width:400px;
+}
+
+/*Diseo barra de botones*/
+.barraBotones{
+    float:left;
+    height: auto;
+    width:100%;
+}
+
+.barraBotones a{
+    background:#C3D9FF;
+    border: thin solid#4096EE;
+    border-radius:10px;
+    color:white;
+    display:block;
+    height:20px;
+    float:left;
+    margin:10px 150px 50px 150px;
+    padding:10px;
+
+}
+.frmRegistrar{
+    background: white;
+    border: thin dashed #87CEEB;
+    border-radius:0px;
+    float: left;
+    height: auto;
+    padding:10px;
+    width:auto;
+}
+
+.frmLogin{
+    border:thin dashed #87CEEB;
+    border-radius:5px;
+    float: inherit;
+    margin:0px 0px 0px 100px;
+    padding:10px;
+    height: auto;
+    width: 70%;
+}
+
+footer{
+    background: #B8C5D6;
+    border-radius: 0px 0px 5px 5px;
+    color: white;
+    float: left;
+    height:40px;
+    margin:40px 0px 0px 0px;
+    padding:5px 0px 10px 0px;
+    text-align: center;
+    width:100%;
+
+}
+/*#area {
+    position: absolute;
+    display: inline-block;
+    height: 200px;
+    width: 150px;
+    border-radius: 5%;
+    color: #1F4994;
+    margin-left: 5px;
+    margin-top: 5px;
+    text-align: center;
+    background-color: #B8C5D6;
+    border: 1px solid #3366CC;
+}*/
+
+#area{
+    margin:5% 0% 0% 0%;
+    background: #B8C5D6;
+    border: thin solid black;
+    border-radius:5px;
+    box-shadow: 0px 0px 6px black;
+    float: left;
+    height: auto;
+    padding: 0px;
+    width: 100%;
+    font-size: smaller;
+}
+.tituloFiltro{
+    text-align: center;
+    font-size: small;
+    margin:3% 0% 0% 0%;
+    background: #B8C5D6;
+    border: thin solid black;
+    border-radius:5px;
+    box-shadow: 0px 0px 6px black;
+    float: left;
+    height: 40%;
+    padding: 0px;
+    width: 100%;
+
+}
+
+#principal {
+    position: auto;
+    width: 100%;
+    top: 16%;
+    bottom: 40%;
+    left: 17%;
+    margin:2% 10% 0% 0%;
+    background: #B8C5D6;
+    border: thin solid black;
+    border-radius:5px;
+    box-shadow: 0px 0px 6px black;
+    float: left;
+    height: auto;
+    padding: 0px;
+    width: 100%;
+}
+#header {
+    height: 4em;
+    background-color: #B8C5D6;
+    margin-bottom: .5em;
+    margin-top: .5em;
+    border: thin solid black;
+    border-radius:5px;
+    box-shadow: 0px 0px 6px black;
+    float: left;
+
+    padding: 2%;
+    width:96%;
+}
+#encabezado {
+    height: 4em;
+    background-color: #B8C5D6;
+    margin-bottom: .5em;
+    margin-top: .5em;
+}
+.paneles {
+    position: relative;
+    font-family: arial;
+    font-size: 12px;
+    color: #000000;
+    float:right;
+    margin-right: 20px;
+
+
+
+}

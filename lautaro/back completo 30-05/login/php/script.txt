@@ -1,0 +1,9 @@
+create database tutorial;
+
+use tutorial;
+create table usuarios(
+idUsuario int not null auto_increment primary key,
+nombreUsuariovarchar(100),
+apellidoPaterno varchar(100),
+password varchar(100)
+);

@@ -1,0 +1,24 @@
+arriba 
+
+<?php
+	$titulo="Buscador de productos";
+	require "conexion.php";
+	$sql = "SELECT cat_id, cat_nombre FROM categorias";
+	$resultado = mysqli_query($link, $sql);
+?>	
+
+
+en el formulario
+
+	<select name="cat_id" id="cat_id">
+
+	<?php
+		while($fila = mysqli_fetch_array($resultado)){
+	?>
+		<option value="<?php echo $fila['cat_id']; ?>"><?php echo $fila['cat_nombre']; ?></option>
+	<?php
+		}
+		mysqli_close($link)
+	?>
+
+	</select>

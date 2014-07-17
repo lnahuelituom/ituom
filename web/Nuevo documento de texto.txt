@@ -1,0 +1,6 @@
+Existe una cantidad de selectores de pseudo-clases útiles para los enlaces, incluidos:
+
+a:link: Un enlace sin visitar.
+a:visited: Un enlace que ha sido visitado.
+a:hover: Un enlace sobre el que pasas el puntero.
+

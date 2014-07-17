@@ -1,0 +1,20 @@
+<html>
+ <head>
+      <title>Subir fichero al servidor</title>
+ </head>
+ <style type="text/css">
+      body {font-family:"Verdana";}
+ </style>
+ <body>
+   <h2>Formulario para el envio de archivos</h2>
+   <form action="enviar_file.php" method="post" enctype="multipart/form-data">
+     <input type="hidden" name="limite" value="500000" >
+     <p><strong>Archivo a transferir</strong><br />
+     <input type="file" name="archivo"></p>
+     <p><input type="submit" name="submit" value="Aceptar"></p>
+   </form>
+ <small>
+   Instrucciones: Pulse el botón 'Seleccionar archivo', seleccione el archivo deseado y presiones el botón 'Aceptar'
+ </small>
+ </body>
+</html>

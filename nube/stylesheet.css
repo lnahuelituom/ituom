@@ -1,0 +1,136 @@
+
+* {
+
+	margin: 0px;
+	padding: 0px;
+}
+
+
+/* Posicionamiento de divs */
+
+
+/* si en el html dice Id aca va #, si dice clase va un puntito, el id es unico y la clase puede tener varios elementos la misma clase */
+
+
+#header {
+	height: 4em;
+	background-color: #B8C5D6;
+	margin-bottom: .5em;
+	margin-top: .5em;
+}
+
+#header div {
+position: relative;
+float:left;
+  font-family: arial;
+  display:inline-block;
+
+ }
+
+#header div:first-child {
+  padding: .3em ;
+
+}
+
+ #header div:nth-child(2) {
+    padding: .3em ;
+    margin: 1.5em .1em .1em .1em;
+  margin-right: 40%;
+}
+
+ #header div:nth-child(3) {
+    padding: .3em ;
+    margin: 1em .1em .1em .1em;
+  
+}	
+
+ #header div:nth-child(4) {
+    padding: .3em ;
+    margin: 1.5em .1em .1em .1em;
+ 
+}
+
+ #header div:nth-child(5) {
+    padding: .3em ;
+   margin: 1.5em .1em .1em .1em;
+}	
+
+ #header div:nth-child(6) {
+    padding: .3em ;
+   margin: 1.5em .1em .1em .1em;
+}	
+
+
+
+ #left {
+	height: 31em;
+	width: 22%;
+	background-position: relative;
+	background-color: #E8EDF3;
+	float: left;
+	margin: .5em .10em .10em 1em;
+padding: .5em ;
+border: 2px solid #E8EDF3;
+	
+}
+
+
+
+
+#right {
+	height: 25em;
+	width: 60%;
+	background-position: relative;
+	background-color: #fff;
+	float:left;
+	margin-bottom: .5em;
+  
+}
+
+/* Botones*/
+
+#buttom1, #buttom2, #buttom3, #buttom4, input[type="submit"] {
+background-color: #c0c0c0;
+font-family: arial ;
+cursor:pointer;
+border: 1px solid #000;
+color:#000;
+width:100px;
+height: 30px;
+font-size: 20px;
+
+
+
+	}
+
+ #buttom3 {
+ background-color: #60A576;	
+
+
+
+}
+
+#buttom4 {
+width:100px;
+height: 30px;
+font-size: 15px;
+border-radius: 5px;
+
+}
+
+form input[type="text"] {
+		    border: 1px solid #DCDCDC;
+		    padding: 4px;
+		    width: 300px;
+		}
+#footer {
+	height: 4em;
+	width: 100%;
+	background-color: #B8C5D6;
+	margin-bottom: .5em;
+	margin-top: .5em;
+    clear: both;
+
+}
+  
+

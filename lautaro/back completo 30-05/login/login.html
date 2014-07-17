@@ -1,0 +1,37 @@
+﻿<html>
+	<head>
+        <meta http-equiv='Content-type' content='text/html ;charset=UTF-8'>
+	</head>
+	<body>
+    <!--INICIA FORMULARIO LOGIN-->
+    <div id='padre'><!--Inicia contenedor Padre-->
+        <div id='hijo'>    <!--Inicia contenedor hijo-->
+            <!--AGREGAMOS UNA CABECERA, DONDE IRA EL LOGO Y NOMBRE-->
+            <div class='cabecera'>
+                <img src='img/logo.png'/>
+                <h1>Red Ituom</h1>
+            </div>
+            <!--Termina cabecera-->
+    <div class='frmLogin'>
+        <form action='php/comprobarUsuario.php' method='POST'>
+            <label>Nombre: </label>
+            <input type='text' name='txtNombre' placeholder='Nombre' required='on'>
+            <br/><br/>
+            <label>Contraseña: </label>
+            <input type='password' name='txtContra' placeholder='Contraseña' required='on'>
+            <br/><br/>
+            <input type="submit" value="Ingresar">
+        </form>
+
+    </div><!--FINALIZA LOGIN-->
+
+            <footer><!--INICIA PIE DE PAGINA-->
+                <h5>  © 2014. | Términos y Condiciones | <a href= "Desarrolladores.php">Desarrolladores</a>  | Centro de ayuda
+                </h5>
+            </footer><!--FINALIZA PIE DE PAGINA-->
+
+        </div><!--FINALIZA CONTENEDOR HIJO-->
+    </div>
+    </body>
+</html>
+

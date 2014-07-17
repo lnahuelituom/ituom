@@ -1,0 +1,137 @@
+body{
+    background: white;
+    font: small-caption;
+    font-size: 15px;
+    margin:0px;
+    padding: 0px;
+}
+
+a{
+    font-weight:bolder;
+    text-decoration: none;
+}
+
+#padre{
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+}
+
+#hijo{
+    background: white;
+    border: thin solid black;
+    border-radius:5px;
+    box-shadow: 0px 0px 6px black;
+    float: left;
+    height: auto;
+    padding: 10px;
+    width:100%;
+}
+
+.frmRegistrar{
+    background:;
+    border: thin dashed #87CEEB;
+    border-radius:5px;
+    float: left;
+    height: auto;
+    padding:10px;
+    width:auto;
+}
+
+form label{
+    float:left;
+    font-size:14px;
+    font-weight:bolder;
+    height:30px;
+    margin:0px 10px 0px 0px;
+    text-align: right;
+    width:100px;
+}
+
+form input{
+    border: thin solid #FF7400;
+    border-radius:5px;
+    height:30px;
+    outline:none;
+    width:200px;
+}
+
+form input:focus{
+    border:thin solid #87CEEB;
+    box-shadow:0px 0px 5px #87CEEB;
+}
+
+form input[type=submit]{
+    background: orange;
+    border:thin solid #FF7400;
+    color: white;
+    float: left;
+    font-size: 20px;
+    font-weight: bolder;
+    margin:10px 0px 10px 50px;
+}
+
+.cabecera{
+    background: #B8C5D6;
+    border-radius: 5px 5px 0px 0px;
+    float: left;
+    height:70px;
+    margin:0px 0px 50px 0px;
+    width:100%;
+}
+
+.cabecera img{
+    float:left;
+   height: 60px;
+    margin:5px 0px 0px 20px;
+    width:50px;
+}
+
+.cabecera h1{
+    color:white;
+    float:left;
+    margin:15px 0px 0px 20px;
+    width:400px;
+}
+
+/*Diseo barra de botones*/
+.barraBotones{
+    float:left;
+    height: auto;
+    width:100%;
+}
+
+.barraBotones a{
+    background:#C3D9FF;
+    border: thin solid#4096EE;
+    border-radius:10px;
+    color:white;
+    display:block;
+    height:20px;
+    float:left;
+    margin:10px 150px 50px 150px;
+    padding:10px;
+
+}
+
+.frmLogin{
+    border:thin dashed #87CEEB;
+    border-radius:5px;
+    float:left;
+    margin:0px 0px 0px 200px;
+    padding:10px;
+}
+
+footer{
+    background: #B8C5D6;
+    border-radius: 0px 0px 5px 5px;
+    color: white;
+    float: left;
+    height:40px;
+    margin:40px 0px 0px 0px;
+    padding:5px 0px 10px 0px;
+    text-align: center;
+    width:100%;
+
+}
