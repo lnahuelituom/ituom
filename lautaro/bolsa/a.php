@@ -11,7 +11,7 @@ include ("conexion.php");
 	<title>Red Social ITUOM</title>
 </head>
 <body>
-
+dsads
 
 
 

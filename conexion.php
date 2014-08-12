@@ -11,5 +11,3 @@ $link=mysqli_connect($server,$usuario_db,$clave_db,$base);
 mysqli_set_charset($link, "utf8");
 
 
-
-?>
