@@ -14,7 +14,7 @@
 
         <tr>
 
-            <th colspan="3">
+            <th colspan="2">
              Equipo de Desarrollo
         	
              </th>
