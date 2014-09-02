@@ -1,0 +1,108 @@
+ 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+
+
+	  <link rel="shortcut icon" type="image/png" href="imagenes/favicon.png" />
+<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+    
+    <!-- PNG FIX for IE6 -->
+    <!-- http://24ways.org/2007/supersleight-transparent-png-in-ie6 -->
+    <!--[if lte IE 6]>
+        <script type="text/javascript" src="login_panel/js/pngfix/supersleight-min.js"></script>
+    <![endif]-->
+    
+	<title>Ituom</title>
+</head>
+<body>
+
+
+<img id="bg" src="imagenes/fondo.png"  alt="background" /> 
+
+<div class="wrapper">
+		<div class="nav">
+			<a href="http://www.proyectosarcadius.com.ar/red08-08/"><div class="icon"></div></a>
+			<div class="nav_menu"><p class="bold link"><a href="bolsatrabajo.html" title="Ingresa a nuestra bolsa de trabajo">Bolsa de Trabajo</a></p></div>
+			<div class="nav_menu"><p class="bold link"><a href="proyectos.html" title="Enterate de nuestros proyectos">Proyectos de Alumnos</a></p></div>
+			<div class="nav_menu"><p class="bold link"><a href="press.html" title="Ingresa tus datos e imprime nuestro formulario de Inscripción">Pre-Inscripciones</a></p></div>
+			<div class="nav_menu"><p class="bold link"><a href="calendario.html" title="Enterate de nuestras actividades">Calendario</a></p></div>
+			
+		</div>
+
+		<div id="cuerpo">
+
+ <div  class="precarga">
+	
+	
+	 <a href="http://www.proyectosarcadius.com.ar"><img src="imagenes/loading.GIF" alt="Pagina en construccion" border="0"  /> 
+    ¡En construcción!</a>
+
+<style>
+	.precarga {
+    background: center no-repeat;
+    float:left;
+    margin: 100px 300px 100px 200px;
+    vertical-align: middle;
+ }
+
+ 
+ </style>
+</div>
+</div>
+
+<script type="text/javascript">
+
+window.onload = function() {
+ 
+    function bgadj(){
+             
+        var element = document.getElementById("bg");
+         
+        var ratio =  element.width / element.height;   
+         
+        if ((window.innerWidth / window.innerHeight) < ratio){
+         
+            element.style.width = 'auto';
+            element.style.height = '100%';
+             
+            <!-- si la imagen es mas ancha que la ventana la centro -->
+            if (element.width > window.innerWidth){
+             
+                var ajuste = (window.innerWidth - element.width)/2;
+                 
+                element.style.left = ajuste+'px';
+             
+            }
+         
+        }
+        else{  
+         
+            element.style.width = '100%';
+            element.style.height = 'auto';
+            element.style.left = '0';
+ 
+        }
+         
+    }
+<!-- llamo a la función bgadj() por primera vez al terminar de cargar la página -->
+    bgadj();
+    <!-- vuelvo a llamar a la función  bgadj() al redimensionar la ventana -->
+    window.onresize = function() {
+        bgadj();
+ 
+    }
+ 
+}
+
+</script>
+
+<div id="footer">
+
+	<p class="bold link"> © 2014. | Términos y Condiciones | <a href= "desarrolladores.html" title="Enterate quienes estamos realizando esta red social">Desarrolladores</a>  | Centro de ayuda</p>
+
+		</div>	
+
+<body>
+	<html>
